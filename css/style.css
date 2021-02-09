@@ -5,6 +5,20 @@ body {
   font-family: "Open Sans", sans-serif;
   color: #fff;
   font-weight: 400;
+  box-sizing: border-box;
+}
+.section-title,
+.skill-title,
+.btn,
+.title {
+  font-family: "Montserrat", sans-serif;
+  font-weight: 900;
+}
+.section-title,
+.btn,
+.skill-title,
+.skill-text {
+  color: #2e2a1b;
 }
 .header {
   background: linear-gradient(103.21deg, #4dbefd 0%, #378fd9 100%);
@@ -17,32 +31,29 @@ body {
 .wrapper {
   display: flex;
   justify-content: space-between;
-  align-items: center;
 }
 .title {
-  width: 600px;
   font-size: 37px;
-  font-family: "Montserrat", sans-serif;
-  font-weight: 900;
   margin: 0;
+}
+.offer {
+  margin-top: 145px;
 }
 .big {
   font-size: 59px;
+  margin: 0;
 }
 .intro {
   width: 360px;
   margin-top: 45px;
-  margin-bottom: 45px;
+  margin-bottom: 65px;
   line-height: 1.65;
 }
 .btn {
-  font-family: "Montserrat", sans-serif;
-  font-weight: bold;
-  color: #2e2a1b;
   text-decoration: none;
   background: #ffd429;
   width: 222px;
-  padding: 20px 30px 20px 30px;
+  padding: 20px 25px;
   text-align: center;
 }
 .btn:hover {
@@ -51,33 +62,26 @@ body {
 }
 .feature {
   padding-top: 100px;
-  padding-bottom: 110px;
+  padding-bottom: 100px;
 }
 .section-title {
-  font-family: "Montserrat", sans-serif;
-  font-weight: bold;
-  color: #2e2a1b;
   font-size: 30px;
   text-align: center;
   margin: 0;
 }
-.feauture-skills {
+.feature-skills {
   margin-top: 75px;
   display: flex;
   text-align: center;
   justify-content: space-between;
 }
 .skill-title {
-  font-family: "Montserrat", sans-serif;
-  font-weight: bold;
   margin-top: 30px;
   margin-bottom: 20px;
   font-size: 19px;
-  color: #2e2a1b;
 }
 .skill-text {
   width: 295px;
-  color: #2e2a1b;
 }
 .order {
   background: #ecf3f8;
@@ -105,9 +109,8 @@ body {
   border: none;
   height: 56px;
   cursor: pointer;
-  padding-left: 85px;
-  padding-right: 85px;
-  background: #ffd429;
+  padding-top: 20px;
+  padding-bottom: 20px;
 }
 .footer {
   background: #164d7a;
@@ -116,4 +119,82 @@ body {
 }
 .footer-text {
   text-align: center;
+}
+@media screen and (max-width: 1200px) {
+  .container {
+    width: 960px;
+  }
+  .offer {
+    margin-top: 85px;
+  }
+  .intro {
+    margin-top: 20px;
+    margin-bottom: 45px;
+  }
+  .header-img {
+    width: 500px;
+    margin-bottom: 60px;
+  }
+}
+@media screen and (max-width: 992px) {
+  .container {
+    width: 720px;
+  }
+  .wrapper {
+    flex-direction: column;
+  }
+  .header-img {
+    width: 100%;
+    margin-top: 60px;
+  }
+  .feature-skills {
+    flex-direction: column;
+    align-items: center;
+  }
+  .skill {
+    margin-bottom: 30px;
+  }
+  .skill-title {
+    margin-top: 20px;
+    margin-bottom: 15px;
+  }
+}
+@media screen and (max-width: 768px) {
+  .container {
+    width: 540px;
+  }
+  .title {
+    font-size: 24px;
+  }
+  .big {
+    font-size: 38px;
+  }
+  .btn {
+    font-size: 11px;
+  }
+  .section-title {
+    font-size: 20px;
+  }
+}
+@media screen and (max-width: 576px) {
+  .container {
+    width: 90%;
+    margin: 0 auto;
+  }
+  .title {
+    width: auto;
+  }
+  .big {
+    width: auto;
+  }
+  .intro {
+    width: auto;
+  }
+  .form-input {
+    width: auto;
+  }
+  .form-btn {
+    max-width: 198px;
+    align-items: center;
+  }
 }
