@@ -36,7 +36,6 @@ h6 {
 .skill-title,
 .skill-text {
   color: #2e2a1b;
-  font-weight: 900;
 }
 .container {
   width: 1170px;
@@ -69,6 +68,7 @@ h6 {
   width: 222px;
   padding: 20px 25px;
   text-align: center;
+  font-weight: 900;
 }
 .btn:hover {
   background: #f5c504;
