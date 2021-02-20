@@ -5,12 +5,29 @@ body {
   font-family: "Open Sans", sans-serif;
   color: #fff;
   font-weight: 400;
+}
+div,
+p,
+input,
+button,
+form,
+span,
+a,
+ul,
+li {
   box-sizing: border-box;
 }
-.section-title,
-.skill-title,
-.btn,
-.title {
+
+p {
+  line-height: 1.65em;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  margin: 0;
   font-family: "Montserrat", sans-serif;
   font-weight: 900;
 }
@@ -19,29 +36,26 @@ body {
 .skill-title,
 .skill-text {
   color: #2e2a1b;
+  font-weight: 900;
+}
+.container {
+  width: 1170px;
+  margin: 0 auto;
 }
 .header {
   background: linear-gradient(103.21deg, #4dbefd 0%, #378fd9 100%);
   padding-top: 65px;
 }
-.container {
-  width: 1170px;
-  margin: auto;
-}
 .wrapper {
   display: flex;
+  align-items: center;
   justify-content: space-between;
 }
 .title {
   font-size: 37px;
-  margin: 0;
-}
-.offer {
-  margin-top: 145px;
 }
 .big {
   font-size: 59px;
-  margin: 0;
 }
 .intro {
   width: 360px;
@@ -100,12 +114,15 @@ body {
   width: 340px;
   height: 50px;
   border: 1px solid #bbbbbb;
-  margin-bottom: 15px;
-  padding-left: 25px;
+  margin: 0 auto 15px;
+  display: block;
+  padding-left: 20px;
+  box-sizing: border-box;
 }
 
 .form-btn {
-  width: 368px;
+  margin: 0 auto;
+  width: 340px;
   border: none;
   height: 56px;
   cursor: pointer;
