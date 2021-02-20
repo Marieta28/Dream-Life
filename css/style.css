@@ -37,6 +37,9 @@ h6 {
 .skill-text {
   color: #2e2a1b;
 }
+.skill-text {
+  font-weight: normal;
+}
 .container {
   width: 1170px;
   margin: 0 auto;
