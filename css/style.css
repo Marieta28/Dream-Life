@@ -36,6 +36,7 @@ h6 {
 .skill-title,
 .skill-text {
   color: #2e2a1b;
+   font-weight: 900;
 }
 .skill-text {
   font-weight: normal;
