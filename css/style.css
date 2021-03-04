@@ -5,6 +5,7 @@ body {
   font-family: "Open Sans", sans-serif;
   color: #fff;
   font-weight: 400;
+  overflow-x: hidden;
 }
 div,
 p,
@@ -36,7 +37,7 @@ h6 {
 .skill-title,
 .skill-text {
   color: #2e2a1b;
-   font-weight: 900;
+  font-weight: 900;
 }
 .skill-text {
   font-weight: normal;
